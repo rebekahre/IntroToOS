@@ -1,0 +1,8 @@
+EMPTY
+(You,HEAD,TAIL)
+(You,HEAD,Are), (Are,You,TAIL)
+(You,HEAD,Are), (Are,You,Beautiful), (Beautiful,Are,TAIL)
+(Wow,HEAD,You), (You,Wow,Are), (Are,You,Beautiful), (Beautiful,Are,Wow), (Wow,Beautiful,TAIL)
+(You,HEAD,Are), (Are,You,Beautiful), (Beautiful,Are,TAIL)
+(You,HEAD,Beautiful), (Beautiful,You,TAIL)
+(Beautiful,HEAD,TAIL)

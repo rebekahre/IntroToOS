@@ -1,0 +1,15 @@
+.section .data
+.section .text
+
+.globl _start
+_start:
+	movl $1, %eax		# eax = 1
+
+loop:	
+	incl %eax 
+	cmp $100, %eax		# if eax = 100, 
+	je exit			# jump to exit
+	jmp loop		# else, restart loop
+
+exit:	movl $1, %ebx
+	int $0x80 	

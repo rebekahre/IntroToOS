@@ -1,0 +1,16 @@
+print
+addhead "You"
+print
+addtail "Are"
+print
+addtail "Beautiful"
+print
+addhead "Wow"
+addtail "Wow"
+print
+del "Wow"
+print
+del "Are"
+print
+del "You"
+print
